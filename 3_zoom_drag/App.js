@@ -6,7 +6,6 @@ import PinchPanHandler7 from './src/screens/pinchPanHandler/PinchPanHandler7';
 const App = () => {
   return (
     <PinchPanHandler7 />
-    // <Text>gfg</Text>
   );
 };
 

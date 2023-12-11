@@ -40,14 +40,24 @@ const SearchBox = () => {
                 setvalue(1)
             }
         }}>
+          <View
+          style={{width: value == 1 ? 20:30, height: value == 1 ? 20:30, 
+            tintColor: '#415ee2'
+          }}
+          >
+            <Text>sds</Text>
+          </View>
             <Image
             source={value == 1 ?
                  require('./clear.png')
                 : require('./search.png')
                 
                 }
-            style={{width: value == 1 ? 20:30, height: value == 1 ? 20:30, tintColor: '#415ee2'}}
+            style={{width: value == 1 ? 20:30, height: value == 1 ? 20:30, 
+              tintColor: '#415ee2'
+            }}
             />
+            
         </TouchableOpacity>
       </Animated.View>
     </View>
